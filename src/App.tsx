@@ -636,7 +636,7 @@ function About() {
         <div className="lg:col-span-4 flex justify-center lg:justify-start lg:pt-8">
           {/* Optional: put your photo in /public as nancy-bw.jpg */}
           <img
-            src="/nancy-bw.jpg"
+            src={`${import.meta.env.BASE_URL}nancy-bw.jpg`}
             alt="Nancy Brosterman portrait"
             className="w-64 sm:w-72 rounded-2xl border border-white/10 shadow-lg object-cover"
           />
